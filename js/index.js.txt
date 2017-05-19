@@ -1,0 +1,5 @@
+var startUp = function () {
+}
+
+
+$document.ready(startUp);

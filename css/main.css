@@ -1,0 +1,149 @@
+
+/* Settings:
+
+Font: sans-serif
+Nuance Logo: ./images/logo.png
+Header background color: #333
+Header border color: #1a6b96
+Close button: &times;
+Input border color: #ccc
+Footer background color: #ccc
+
+*/
+
+
+#survey {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  right: 20px;
+  height: 600px;
+  position: fixed;
+  width: 350px;
+  font: sans-serif;
+}
+
+/* Wrapper div */
+#inner {
+  margin: 10%;
+  padding: 10px;
+}
+/*--------*/
+
+
+/* Header */
+#logo {
+  background-color: #333;
+  border-bottom: 3px solid #1a6b96;
+  height: 45px; 
+}
+
+#logo img {
+  max-width:125px;
+  max-height:45px;
+  margin: 10px;
+}
+
+#logo span {
+  color: white;
+  border-style: none;
+  float: right;
+  margin: 20px;
+}
+/*--------*/
+
+
+h1 {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 auto 40px auto;
+  width: 350px;
+}
+
+
+/* Form */
+input, textarea {
+  display: block;
+  font-size: 15px;
+  width: 225px;
+  font-size: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+select {
+  display: block;
+  font-size: 15px;
+  width: 225px;
+  font-style: none;
+  font-size: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 225px;
+  padding: 5px;
+}
+
+:focus {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+
+label {
+  display: block;
+  font-size: 15px;
+  width: 225px;
+  margin-bottom: 10px;
+}
+/*--------*/
+
+
+/* Submit button */
+#submit {
+  display: block;
+  position: relative;
+  float: right;
+  background-color: #1a6b96;
+  color: white;
+  font-style: none;
+  width: 125px;
+  margin-right: 10px;
+}
+/*--------*/
+
+
+#reqd {
+  float: right;
+  font-size: 10px;
+  margin: 30px 20px 30px 50px;
+}
+
+#footer {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  background-color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  width: 330px;
+  height: 15px;
+  margin: 0;
+  padding: 10px;
+}
+
+
+/* Classes for validation */
+
+.my-error-class {
+    background-color: lightcoral;
+    color: #FF0000;  /* red */
+};
+/*--------*/
